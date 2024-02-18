@@ -188,32 +188,30 @@ header #header-portal nav img {
 #banner-controles {
     margin-top: 34px;
     padding: 0 170px;
+    width: 100%;
+}
 
+#banner-controles article {
     position: relative;
 }
 
-#banner-controler img {
-    width: fit-content;
-    object-fit: cover;
+#banner-controles article img {
+    width: 100%;
 }
 
-#banner-controles span {
+#banner-controles article span {
+    position: absolute;
+
+    top: 50%;
+    left: 97px;
+    transform: translate(0, -50px);
+
     display: flex;
     flex-direction: column;
-    gap: 6px;
-
-    position: absolute;
-    top: 50%;
-    left: 250px;
-    transform: translate(0, -50%);
+    gap: 10px;
 }
 
-#banner-controles span img {
-    width: 100%;
-    object-fit: cover;
-}
-
-#banner-controles span h3 {
+#banner-controles h3{
     color: #000;
     font-family: sans-serif;
     font-size: 26px;
@@ -222,16 +220,17 @@ header #header-portal nav img {
     line-height: normal;
 }
 
-#banner-controles span p {
+#banner-controles p {
     color: #000;
     font-family: sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: 65%;
 }
 
-#banner-controles span a {
+#banner-controles a {
     color: #094810;
     font-family: Poppins;
     font-size: 14px;
@@ -240,10 +239,9 @@ header #header-portal nav img {
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
-    width: fit-content;
 }
 
-#banner-controles span a::after{
+#banner-controles a::after {
     content: url(assets/icons/seta.svg);
-    margin-left: 10px;
+    margin-left: 14px;
 }
