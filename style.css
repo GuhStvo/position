@@ -198,8 +198,6 @@ header #header-portal nav img {
 }
 
 #banner-controles span {
-    max-width: 635px;
-
     display: flex;
     flex-direction: column;
     gap: 6px;
