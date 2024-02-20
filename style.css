@@ -245,3 +245,56 @@ header #header-portal nav img {
     content: url(assets/icons/seta.svg);
     margin-left: 14px;
 }
+
+/* |||||||||||||||||||||||||||||||| */
+
+#next-gamefav {
+    margin: 80px 33px 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+#next-gamefav h2 {
+    text-align: center;
+}
+
+#next-gamefav .card-wraper img {
+    max-width: 266px;
+    min-height: 400px;
+}
+
+#next-gamefav .card-wraper {
+    position: relative;
+}
+
+#next-gamefav .card-wraper span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: absolute;
+    bottom: 35px;
+    left: 23px;
+    right: 23px;
+}
+
+#next-gamefav span>h6 {
+    color: #FFF;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#next-gamefav span>p {
+    color: #FFF;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
